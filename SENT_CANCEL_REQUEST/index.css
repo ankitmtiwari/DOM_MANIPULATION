@@ -37,19 +37,19 @@ body{
 }
 
 #main h5{
-    font-size: 35px;
+    font-size: 25px;
     margin: 10px 0;
     color: RED;
 }
 
 #main button{
-    font-size: 30px;
+    font-size: 25px;
     background-color: cadetblue;
     color: white;
     font-weight: 700;
     padding: 12px 20px;
     border-radius: 50px;
     border: none;
-    margin: 5px;
+    margin: 10px;
     cursor: pointer;
 }
