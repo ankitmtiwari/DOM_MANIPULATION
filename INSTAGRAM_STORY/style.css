@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html, body{
+    height: 100%;
+    bottom: 100%;
+    background-color: aqua;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#main{
+    height: 450px;
+    width: 300px;
+    border-radius: 15px;
+    background-color: white;
+    border: 3px solid black;
+    position: relative;
+    overflow: hidden;
+}
+
+#storiyan{
+    height: 120px;
+    width: 100%;
+    border-bottom: 1px solid beige;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+#storiyan::-webkit-scrollbar{
+    display: none;
+}
+.story{
+    height: 90px;
+    width: 90px;
+    border: 2px solid red;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 7.5px;
+    margin-right: 7.5px;
+    margin-bottom: 15px;
+
+    }
+
+.story img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+#single_story{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: none;
+    background-size: cover;
+    background-position: center;
+}
+
+.timeline{
+    height: 2px;
+    width: 100%;
+    background-color: aliceblue;
+    margin-top: 3px;
+    /* transition: background-color linear 3s; */
+}
